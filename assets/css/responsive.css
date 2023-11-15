@@ -1,0 +1,376 @@
+@media (min-width: 992px) {
+  header nav.navbar ul li:not(:first-child) {
+    margin-left: 17px;
+  }
+  header nav.navbar ul.navbar-nav {
+    align-items: center;
+  }
+}
+@media (min-width: 1200px) {
+  header nav.navbar ul li:not(:first-child) {
+    margin-left: 38px;
+  }
+  #welcome-message .wm-left {
+    padding-right: 30px;
+  }
+}
+@media (max-width: 1760px) {
+  #about-mission-vision .amv-left img:last-child {
+    left: -160px;
+  }
+}
+@media (max-width: 1660px) {
+  #about-mission-vision .amv-left {
+    width: 32%;
+    margin-left: 5%;
+  }
+  .amv-right h3 {
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+  .amv-right p {
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+  #form-section {
+    background-size: 55% 100%;
+  }
+}
+@media (max-width: 1530px) {
+  #blue-quote-box .container {
+    max-width: calc(100% - 30px);
+  }
+  #page-banner {
+    background-position: 110% 100%;
+  }
+}
+@media (max-width: 1460px) {
+  #about-mission-vision .amv-left {
+    width: 35%;
+    margin-left: 5%;
+  }
+  #about-mission-vision .amv-left img:last-child {
+    left: -140px;
+  }
+}
+@media (max-width: 1350px) {
+  #welcome-banner > img:first-child {
+    max-width: 600px;
+  }
+}
+@media (max-width: 1199.98px) {
+  #welcome-banner > img:nth-child(3),
+  #welcome-banner > img:nth-child(2) {
+    display: none;
+  }
+  #about-mission-vision .container {
+    flex-wrap: wrap;
+  }
+  #about-mission-vision .amv-right,
+  #about-mission-vision .amv-left {
+    width: 100%;
+    margin-left: 0;
+  }
+  #about-mission-vision .amv-left {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  #about-mission-vision .amv-left img:last-child {
+    left: 50%;
+    transform: translateX(calc(-50% - 140px));
+  }
+  #form-section {
+    background: none;
+    background-color: #f1fafe;
+    padding-top: 100px;
+    border-bottom: 3px solid #fff;
+    margin-bottom: 0;
+  }
+  #form-section .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #form-section.contact-form .container {
+    padding-left: 15px;
+  }
+  #form-section form {
+    margin-left: -15px;
+  }
+  #specialisation {
+    margin-top: 100px;
+  }
+  .footer-top-items {
+    grid-template-columns: repeat(auto-fit, calc(100% / 3));
+    /* align-items: center; */
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .footer-top-items .footer-top-item {
+    margin: 20px 0;
+  }
+  #page-banner {
+    background-position: 130% calc(100% + 60px);
+    margin-bottom: 0;
+  }
+  #specialisation.our-services .specialisation {
+    margin-bottom: 0;
+    background: #f5faf6;
+    border-bottom: 3px solid #fff;
+  }
+  #form-section.about-form > img:first-of-type {
+    display: none;
+  }
+}
+@media (max-width: 991.98px) {
+  header {
+    position: static;
+  }
+  header nav {
+    margin-bottom: 22px;
+  }
+  header nav .navbar-collapse ul {
+    padding-top: 10px;
+  }
+  header nav.navbar ul li:not(:last-child) a.nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header nav.navbar ul li:last-child a.nav-link {
+    margin-top: 10px;
+    padding: 12px 15px;
+  }
+  #welcome-banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  #welcome-banner > img:first-child {
+    position: static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+  #about-mission-vision {
+    padding-top: 70px;
+  }
+  #specialisation {
+    margin-top: 50px;
+  }
+  #specialisation .specialisation {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+  }
+  #specialisation h2.section-title-main {
+    margin-bottom: 60px;
+  }
+  #blue-quote-box .container {
+    background-position: 13px calc(100% + 130px), 100% -200px;
+    border-radius: 20px;
+  }
+  #blue-quote-box .container h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  #blue-quote-box .container p {
+    font-size: 22px;
+  }
+  #blue-quote-box.diff-box .container {
+    background-position: calc(100% - 20px) calc(100% + 120px);
+  }
+  #supply-chain h3 {
+    margin-top: 60px;
+  }
+  #supply-chain h2 {
+    margin-bottom: 20px;
+  }
+  #form-section {
+    padding-top: 70px;
+  }
+  #form-section p {
+    margin-bottom: 50px;
+  }
+  #form-section form {
+    margin-left: 0px;
+  }
+  .footer-top-items .footer-top-item:first-child {
+    order: -2;
+  }
+  .footer-top-items .footer-top-item:nth-child(4) {
+    order: -1;
+  }
+  .contact-form .container > .row > div:first-child p + img {
+    right: 0;
+  }
+  footer a,
+  footer p {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  #page-banner .container {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+  #page-banner p br {
+    display: none;
+  }
+  #page-banner {
+    background-position: 190% calc(100% + 60px);
+  }
+  #specialisation.our-services {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 767.98px) {
+  #welcome-banner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  #welcome-banner > img:first-child {
+    max-width: calc(100% - 30px);
+  }
+  #welcome-banner h2 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 15px;
+  }
+  #welcome-banner p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #welcome-banner p + a {
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-top: 20px;
+  }
+  #page-banner {
+    background-image: none;
+  }
+  body {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  h3.section-title-top {
+    font-size: 25px;
+  }
+  h2.section-title-main {
+    font-size: 40px;
+  }
+  #about-mission-vision .amv-left img:last-child {
+    transform: translateX(calc(-50% - 20px));
+  }
+  .footer-top-items {
+    grid-template-columns: repeat(auto-fit, 50%);
+  }
+  #supply-chain .row [class*="col-"] {
+    margin: 30px 0;
+  }
+  #supply-chain h4 {
+    margin-top: 25px;
+  }
+  #form-section h3 {
+    font-size: 35px;
+  }
+  #form-section.contact-form h5 + a {
+    margin-bottom: 40px;
+  }
+  #form-section p {
+    font-size: 20px;
+    line-height: 33px;
+  }
+  .contact-form .container > .row > div:first-child p + img {
+    display: none;
+  }
+  #our-clients .container > div > div:first-child {
+    margin-bottom: 30px;
+  }
+  #our-clients h3.section-title-top {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 575.98px) {
+  #blue-quote-box .container h3 {
+    font-size: 25px;
+  }
+  #blue-quote-box .container p {
+    font-size: 17px;
+  }
+  #about-mission-vision .amv-left img:last-child {
+    bottom: -150px;
+  }
+  #supply-chain .row [class*="col-"] {
+    text-align: center;
+  }
+  #supply-chain .row [class*="col-"] > span {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #specialisation h2.section-title-main {
+    font-size: 35px;
+  }
+  #page-banner .container {
+    padding-bottom: 80px;
+    padding-top: 70px;
+  }
+  footer.diff-footer {
+    background-image: none;
+  }
+  #supply-chain .blue,
+  #supply-chain .green {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 479.98px) {
+  #about-mission-vision .amv-left img:last-child {
+    bottom: -125px;
+  }
+  .amv-right h3 {
+    font-size: 35px;
+  }
+  .amv-right p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .footer-top-items {
+    grid-template-columns: repeat(auto-fit, 100%);
+    text-align: center;
+  }
+  #our-clients .container > img {
+    display: none;
+  }
+  #form-section.contact-form {
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 383.98px) {
+  header .navbar-light .navbar-brand {
+    margin-right: 0;
+    max-width: 170px;
+  }
+  #welcome-banner h2 {
+    font-size: 33px;
+  }
+  #page-banner h2 {
+    font-size: 55px;
+  }
+  #about-mission-vision .amv-left img:last-child {
+    transform: translateX(calc(-50% - 8px));
+    bottom: -88px;
+  }
+  #specialisation .specialisation-box {
+    padding: 35px 15px;
+  }
+  #form-section.contact-form form {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+  }
+  #form-section form.row [class*="col-"]:last-child {
+    margin-bottom: 45px;
+  }
+  #form-section.contact-form h5 + a {
+    overflow-x: scroll;
+  }
+}
